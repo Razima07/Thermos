@@ -12,7 +12,11 @@ public class Thermos {
  void add(float val) {
 	 qty = qty + val;
  }
- 
+  
+ void remove()
+ {
+	 float val;
+ }
  void displaydetails() {
 	 System.out.println("brand is: "+ brand);
 	 System.out.println("liquid is: "+ liquid);
